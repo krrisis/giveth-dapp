@@ -189,7 +189,7 @@ class EditProfile extends Component {
                       value={email}
                       placeholder="email@example.com"
                       validations="isEmail"
-                      help="Please enter your email address."
+                      help="Please enter your email address, so that people can contact you for more details. Know that (for now) your email address is publicly displayed on your profile!"
                       validationErrors={{
                         isEmail: "Oops, that's not a valid email address.",
                       }}
